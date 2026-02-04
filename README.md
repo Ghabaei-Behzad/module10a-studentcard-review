@@ -23,3 +23,13 @@ This is a React code review assignment. I reviewed the StudentCard component and
 This was my screen shot of the code.
 
 <img width="1366" height="730" alt="Assign10A" src="https://github.com/user-attachments/assets/35166c3e-e105-402e-894f-87e003a24f6c" />
+
+## Setup Instructions
+1. **Create project with Vite:**
+   `npm create vite@latest module10a-studentcard-review -- --template react`
+2. **Navigate to project directory:**
+   `cd module10a-studentcard-review`
+3. **Install dependencies:**
+   `npm install`
+4. **Start the development server:**
+   `npm run dev`
