@@ -1,8 +1,10 @@
-
+/**
+ * This import statement is really important. It must be included for StudentCard to be visible.
+*/
 import React, { useState } from 'react';
 
 /**
- * COMPONENT SUMMARY:
+ * Here is a short summary on our component.
  * The StudentCard component is a UI "tile" designed to display a student's 
  * profile information. It demonstrates how to receive external data (props) 
  * and manage internal interactivity (state) to show or hide a bio.
@@ -12,12 +14,13 @@ function StudentCard(props) {
   // These variables (name, major, etc.) are read-only and define what the card displays.
   const { name, major, year, bio, imageUrl } = props;
 
-  // 2. STATE: This initializes 'showBio' at 'false'. 
+  // 2. STATE: This initializes 'showBio' at boolean 'false'. 
   // 'showBio' holds the current visibility, and 'setShowBio' is the function used to update it.
   const [showBio, setShowBio] = useState(false);
 
-  // 3. TOGGLE LOGIC: This function flips the state.
+  // 3. TOGGLE LOGIC: This function flips the state, on the button.
   // If 'showBio' is true, it becomes false (and vice versa) when the button is clicked.
+  // This button function allows a paragraph element with a sentence, to appear or hide.
   const toggleBio = () => {
     setShowBio(!showBio);
   };
