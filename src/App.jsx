@@ -6,6 +6,7 @@ function App() {
     <div>
       {/* 
         PROPS IN ACTION:
+        At the top we must import StudentCard and code.
         Here we "pass" data into StudentCard like attributes. 
         Everything like name="Emily Carter" becomes part of the 'props' object in the child component.
       */}
