@@ -13,7 +13,7 @@ This is a React code review assignment. I reviewed the StudentCard component and
 - How to use and identify props and state
 - How toggle functionality works with useState
 - How to better document and explain React components
-- The elements were simple. Using <p> <div> <img> is really basic stuff. The syntax was a bit
+- The elements were simple. Using '<p> <div> <img>' is really basic stuff. The syntax was a bit
 - new and they could change the readability of the program. Errors could arise from the comments
 - syntax. Also the import statement was needed and was critical for the visibiity of the student - card.   It was really difficult to push my files to github and I needed lots of help. I got
 - help from github.com when a new repository is created.  The previous README.md was removed.
