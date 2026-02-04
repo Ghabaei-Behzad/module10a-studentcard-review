@@ -12,6 +12,8 @@ import React, { useState } from 'react';
 function StudentCard(props) {
   // 1. PROPS: We extract (destructure) the data passed from the parent (App.jsx).
   // These variables (name, major, etc.) are read-only and define what the card displays.
+  // <StudentCard> is inside a <div> and <StudentCard> has an attibute of bio="I enjoy..."
+  // the button makes bio reappear or dissappear.
   const { name, major, year, bio, imageUrl } = props;
 
   // 2. STATE: This initializes 'showBio' at boolean 'false'. 
@@ -20,7 +22,7 @@ function StudentCard(props) {
 
   // 3. TOGGLE LOGIC: This function flips the state, on the button.
   // If 'showBio' is true, it becomes false (and vice versa) when the button is clicked.
-  // This button function allows a paragraph element with a sentence, to appear or hide.
+  // This button function allows <StudentCard bio="I enjoyed..."> to appear or hide.
   const toggleBio = () => {
     setShowBio(!showBio);
   };
