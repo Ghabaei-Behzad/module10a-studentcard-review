@@ -37,6 +37,7 @@ function StudentCard(props) {
 
   // 2. STATE: This initializes 'showBio' at boolean 'false'. 
   // 'showBio' holds the current visibility, and 'setShowBio' is the function used to update it.
+  // because True && True returns True, also !False returns True. 
   const [showBio, setShowBio] = useState(false);
 
   // 3. TOGGLE LOGIC: This function flips the state, on the button.
@@ -86,6 +87,13 @@ function StudentCard(props) {
         * onClick={toggleBio}, not onClick={toggleBio()}.
         * You can define an event handler function separately or inline.
         * Event handlers are defined inside a component, so they can access props.
+        * We declare a function called toggleBio inside our Button component.
+        * and we implement the logic inside that function
+        * we add onClick={toggleBio} to the <button> JSX. 
+        * we defined the function and then passed it as a prop to <button>.
+        * toggleBio is an event handler. Event handler functions:
+        * Are usually defined inside your components.
+        * with names that start with handle or toggle, followed by the name of the event.
         */}
       <button onClick={toggleBio} style={{
         marginTop: '12px',
