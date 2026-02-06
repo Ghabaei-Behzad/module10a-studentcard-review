@@ -81,6 +81,11 @@ function StudentCard(props) {
         * 'Hide Bio'.  Notice that <StudentCard /> starts with a capital letter. That’s how you know
         * it’s a React component. React component names must always start with a capital
         * letter, while HTML tags must be lowercase.
+        * You can handle events by passing a function as a prop to an element like <button>.
+        * Event handlers must be passed, not called!
+        * onClick={toggleBio}, not onClick={toggleBio()}.
+        * You can define an event handler function separately or inline.
+        * Event handlers are defined inside a component, so they can access props.
         */}
       <button onClick={toggleBio} style={{
         marginTop: '12px',
