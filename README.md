@@ -19,7 +19,7 @@ This is a React code review assignment. I reviewed the StudentCard component and
 - help from github.com by creating a new repository. When a new repository is created in github,
 - some push information is given. ( but not a lot )
 - I learned about import statements and hooks from react which allow us to use useState,
-- to build buttons end handle events, passing it to a function,
+- to build buttons and handle events, and passing to a function,
 - to use the ternary operator to toggle back and forth.
 - Hooks let you use different React features from your components. You can either use the built
 - in Hooks or combine them to build your own.
