@@ -5,7 +5,8 @@
 // 2/4/2026
 
 /**
- * This import statement is really important. It must be included for StudentCard to be visible.
+ * This import statement is really important. It must be included for StudentCard
+ * to be visible, useState is a Hook from react.
  */
 import React, { useState } from 'react';
 
