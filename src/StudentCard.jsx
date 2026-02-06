@@ -5,8 +5,18 @@
 // 2/4/2026
 
 /**
+ * The useState Hook provides those two things:
+ * A state variable to retain the data between renders.
+ * A state setter function to update the variable and trigger
+ * React to render the component again.
+ * Adding a state variable 
+ * To add a state variable, import useState from React at the top of the file:
  * This import statement is really important. It must be included for StudentCard
  * to be visible, useState is a Hook from react.
+ * const [state variale, and setter function] = useState(false).
+ * The [ and ] syntax here is called array destructuring and it lets you read values
+ * from an array. The array returned by useState always has exactly two items.
+ * In React, useState, as well as any other function starting with “use”, is called a Hook.
  */
 import React, { useState } from 'react';
 
