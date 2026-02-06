@@ -16,11 +16,16 @@ This is a React code review assignment. I reviewed the StudentCard component and
 - The elements were simple. Using p div img is really basic stuff. The syntax was a bit
 - new and they could change the readability of the program. Errors could arise from the comments
 - syntax. Also the import statement was needed and was critical for the visibiity of the student - card.  It was really difficult to push my files to github and I needed lots of help. I got
-- help from github.com by creating a new repository. When a new repository is created git
+- help from github.com by creating a new repository. When a new repository is created in github,
 - some push information is given. ( but not a lot )
 - I learned about import statements and hooks from react which allow us to use useState,
 - to build buttons end handle events, passing it to a function,
 - to use the ternary operator to toggle back and forth.
+- Hooks let you use different React features from your components. You can either use the built
+- in Hooks or combine them to build your own.
+- State lets a component "remember" information like user input. For example, a form component
+- can use state to store the input value, useState declares a state variable that you can update
+- directly.
  
 ## Screenshot
 (Add a screenshot of the running component with your comments visible in the code editor)
