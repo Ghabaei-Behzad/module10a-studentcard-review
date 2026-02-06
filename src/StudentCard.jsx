@@ -61,7 +61,8 @@ function StudentCard(props) {
       boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)'
     }}>
       {/* 5. IMAGE PROPS: The 'src' and 'alt' are dynamically set using the props we received. 
-        * This produced a circular portrait, borderRadius allows this.
+        * This css property makes images fit properly in a circular container, 
+        * objectFit: 'cover'
         */}
       <img
         src={imageUrl}
@@ -96,7 +97,7 @@ function StudentCard(props) {
         * "If showBio is true, render the <p> tag. If false, do nothing." 
         * we can see that the attribute bio is in curly braces.
         * bio is our focus.  At the bottom 'export default' makes the
-        * component available or import.
+        * component available for import.
         */}
       {showBio && <p style={{ marginTop: '16px', fontSize: '14px' }}>{bio}</p>}
     </div>
