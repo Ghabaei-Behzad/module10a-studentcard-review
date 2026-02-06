@@ -5,11 +5,16 @@ function App() {
   return (
     <div>
       {/* 
-        PROPS IN ACTION:
-        At the top we must import StudentCard and code.
-        Here we "pass" data into StudentCard like attributes. 
-        Everything like name="Emily Carter" becomes part of the 'props' object in the child component.
-      */}
+        * PROPS IN ACTION:
+        * Usually, you import components with the static import declaration:
+        * React components use props to communicate with each other. 
+        * Every parent component can pass some information to its child
+        * components by giving them props.
+        * At the top we must import StudentCard and code.
+        * Here we "pass" data into StudentCard like attributes. 
+        * Everything like name="Emily Carter" becomes part of the 'props' object
+        * in the child component.
+        */}
       <StudentCard
         name="Emily Carter"
         major="Computer Science"
