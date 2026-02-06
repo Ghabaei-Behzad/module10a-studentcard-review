@@ -77,7 +77,10 @@ function StudentCard(props) {
       {/* 
         * 7. EVENT HANDLING: The onClick listener triggers our toggleBio function.
         * The button text changes dynamically based on the current 'showBio' state. The ternary
-        * operator demonstrates that If showBio is boolean true, then button will display 'Hide Bio'
+        * operator demonstrates that If showBio is boolean true, then button will display
+        * 'Hide Bio'.  Notice that <StudentCard /> starts with a capital letter. That’s how you know
+        * it’s a React component. React component names must always start with a capital
+        * letter, while HTML tags must be lowercase.
         */}
       <button onClick={toggleBio} style={{
         marginTop: '12px',
