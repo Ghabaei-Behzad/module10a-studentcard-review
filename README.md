@@ -7,7 +7,7 @@
 # Module 10A – StudentCard Code Review
 
 ## Description
-This is a React code review assignment. I reviewed the StudentCard component and added comments to explain the logic behind props, state, and interactivity. A ternary operator is used for a toggle function that uses a button. When the button is clicked the message on the button changes and the tile becomes smaller, or larger to include the bio.  Two files are used which are StudentCard.jsx and App.jsx Localhost was succesful.  We declare a function, inside tht Button component.  Implement the logic inside that function, then add onClick={toggleBio} to the <button> JSX. Inline style uses camelCasing and double curly braces style={{backgroundColor: 'blue' }}
+This is a React code review assignment. I reviewed the StudentCard component and added comments to explain the logic behind props, state, and interactivity. A ternary operator is used for a toggle function that uses a button. When the button is clicked the message on the button changes and the tile becomes smaller, or larger to include the bio.  Two files are used which are StudentCard.jsx and App.jsx. The use of Localhost was succesful.  We declare a function, inside tht Button component.  Implement the logic inside that function, then add onClick={toggleBio} to the <button> JSX. Inline style uses camelCasing and double curly braces style={{backgroundColor: 'blue' }}
 
 ## What I Learned
 - How to use and identify props and state
